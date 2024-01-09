@@ -5,6 +5,10 @@ def is_leap(year):
     leap = False
     
     # Write your logic here
+    if year%4==0 and year%400==0: #Initial Testing idea
+        return True
+    else:
+        return False
         
     return leap
 
