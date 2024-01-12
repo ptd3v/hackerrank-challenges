@@ -5,7 +5,7 @@ def is_leap(year):
     leap = False
     
     # Write your logic here
-    if year%4==0 and year%400==0:  #Initial Testing idea, 1/6 failed. 1992 fail. Giving False.
+    if year % 4==0 and year % 400==0:  #Initial Testing idea, 1/6 failed. 1992 fail. Giving False.
         
     #Why is this returning false? Lets check the three condidions.
     #Condition 1: The year can be evenly divided by 4, is a leap year, unless:
